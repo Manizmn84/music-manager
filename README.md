@@ -69,7 +69,7 @@ User --M:N--> Follow --> Artist/Playlist
 ---
 
 ## 5. Layered Architecture (Text-based)
-
+```
 ┌─────────────────────────────┐
 │ Presentation Layer │
 │ - Django Views, Templates │
@@ -99,11 +99,11 @@ User --M:N--> Follow --> Artist/Playlist
 │ - Reporting / Analytics │
 │ - External Services (optional)
 └─────────────────────────────┘
-
+```
 ---
 
 ## 6. App Structure
-
+```
 music_manager_project/
 │
 ├── users/ # User, Artist, Admin
@@ -116,6 +116,6 @@ music_manager_project/
 ├── media/ # Uploaded audio and images
 ├── settings.py
 └── urls.py
-
+```
 
 ---
