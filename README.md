@@ -62,9 +62,6 @@ Artist --1:N--> Track
 Track --1:1--> Genre
 Playlist --M:N--> Track
 User --1:N--> Playlist
-User --M:N--> Like --> Track/Album
-User --M:N--> Favorite --> Track
-User --M:N--> Follow --> Artist/Playlist
 
 ---
 
@@ -119,3 +116,4 @@ music_manager_project/
 ```
 
 ---
+![ERD Diagram](ER.png)
